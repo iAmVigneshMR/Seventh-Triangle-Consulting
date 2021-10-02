@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Seventh Triangle Consulting</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Seventh Triangle Consulting</h1>
+        <div class="main">
+            <div class="left-contents">
+                <img id="changeimg" src="./assets/10kg.jpg" alt="asshirvad">
+            </div>
+            <div class="right-contents">
+                <p>Aashirvaad Atta - Whole Wheat, <span id="change">10</span> kg Pouch</p>
+                <h4>Rs <span id="change2">399</span></h4>
+                <p>Pack Sizes</p>
+                <button id="foo2" onclick="changecontent()"><span>10 kg <br> Rs.399</span></button>
+                <button id="foo1" onclick="changecontent1()"><span>5 kg <br> Rs.209</span></button>
+                <p>QUANTITY</p>
+                <div class="quantity">
+                    <button class="btn minus-btn disabled" type="button">-</button>
+                    <input type="text" id="quantity" value="1" readonly>
+                    <button class="btn plus-btn" type="button">+</button>
+                </div>       <br>
+                <button class="btnch3" onclick="priceTotal()">Payable</button> =
+                    <span><i class="fa fa-rupee"></i></span>
+                    <span id="price">Rs 399</span>
+            </div>
+        </div>
+        <div class="secondMain">
+            <div class="left-contents2">
+                <img class="img2" src="./assets/masala.webp" alt="masala">
+                <p>Masala, SPices, Cooking paste</p>
+            </div>
+            <div class="right-contents2">
+                <div class="main-cards">
+                    <div class="cards1">
+                        <img src="./assets/atta.webp" alt="atta">
+                        <p>Atta, Flour</p>
+                    </div>
+                    <div class="cards1">
+                        <img src="./assets/rice.webp" alt="rice">
+                        <p>Rice & Rice Products</p>
+                    </div>
+                    <div class="cards1">
+                        <img src="/assets/samppon.png" alt="dals">
+                        <p>Dals & Pulses</p>
+                    </div>
+                    <div class="cards1">
+                        <img src="/assets/oil.png" alt="oil">
+                        <p>Cooking Oil</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
